@@ -109,7 +109,7 @@ still keeping operational details easily accessible for management purposes.
 
 ### Security and Execution Context
 
-**Properties:** `user`, `isolation`
+**Properties:** `user`, `isolation`, `devices`
 
 These properties define the security context and isolation levels under which the service runs. They are crucial for
 maintaining security and proper resource management but are more specific details that logically follow after the

@@ -74,7 +74,7 @@ class ServiceKeysOrderRule implements Rule {
         [ServiceKeyGroup.NETWORK]: ['ports', 'networks', 'network_mode', 'extra_hosts'],
         [ServiceKeyGroup.RUNTIME]: ['command', 'entrypoint', 'working_dir', 'healthcheck', 'restart'],
         [ServiceKeyGroup.METADATA]: ['logging', 'labels', 'profiles'],
-        [ServiceKeyGroup.SECURITY]: ['user', 'isolation'],
+        [ServiceKeyGroup.SECURITY]: ['user', 'isolation', 'devices'],
         [ServiceKeyGroup.OTHER]: [],
       },
       groupOrder: [
