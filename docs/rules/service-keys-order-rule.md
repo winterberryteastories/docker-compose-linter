@@ -93,7 +93,7 @@ proper interaction with other services and external clients.
 
 ### Runtime Behavior
 
-**Properties order:** `command`, `entrypoint`, `working_dir`, `restart`, `healthcheck`
+**Properties order:** `command`, `entrypoint`, `working_dir`, `healthcheck`, `restart`
 
 These properties dictate how the service runs, including the commands it executes, the working directory, restart
 policies, and health checks. Placing these properties together creates a clear section focused on the service’s runtime

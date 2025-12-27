@@ -72,7 +72,7 @@ class ServiceKeysOrderRule implements Rule {
         [ServiceKeyGroup.DATA_MANAGEMENT]: ['volumes', 'volumes_from', 'configs', 'secrets'],
         [ServiceKeyGroup.ENVIRONMENT]: ['environment', 'env_file'],
         [ServiceKeyGroup.NETWORK]: ['ports', 'networks', 'network_mode', 'extra_hosts'],
-        [ServiceKeyGroup.RUNTIME]: ['command', 'entrypoint', 'working_dir', 'restart', 'healthcheck'],
+        [ServiceKeyGroup.RUNTIME]: ['command', 'entrypoint', 'working_dir', 'healthcheck', 'restart'],
         [ServiceKeyGroup.METADATA]: ['logging', 'labels', 'profiles'],
         [ServiceKeyGroup.SECURITY]: ['user', 'isolation'],
         [ServiceKeyGroup.OTHER]: [],
